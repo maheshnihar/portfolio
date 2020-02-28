@@ -1,12 +1,8 @@
 import React from 'react';
 import './DesktopMenu.css';
 import Logo from '../images/thor.png';
-import MenuIcon from '../images/hamburger.png';
 
 
-const handleMenuClick = () => {
-
-}
 const DesktopMenu: React.FunctionComponent<{}> = () => {
     return (
         <div id='leftmenu' className='leftmenu'>
