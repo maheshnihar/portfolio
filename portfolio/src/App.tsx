@@ -6,8 +6,8 @@ import MobileMenu from './Components/MobileMenu';
 function App() {
   return (
     <div className="App">
-      <DesktopMenu></DesktopMenu>
-      <MobileMenu></MobileMenu>
+      <DesktopMenu />
+      <MobileMenu />
     </div>
   );
 }
