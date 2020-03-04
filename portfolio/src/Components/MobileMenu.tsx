@@ -3,8 +3,6 @@ import './MobileMenu.css';
 import Logo from '../images/thor.png';
 import MenuIcon from '../images/hamburger.png';
 import MobileMenuDrawer from './MobileMenuDrawer';
-import { CSSTransition } from "react-transition-group";
-
 
 const MobileMenu: React.FunctionComponent = () => {
 

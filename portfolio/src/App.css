@@ -1,7 +1,25 @@
 .App {
   text-align: center;  
   height: 100%;
+  display: flex;
+  
 }
+/* .App .content{
+  
+} */
 
-
+@media only screen and (max-width: 768px) {
+  .App {
+    text-align: center;  
+    height: 100%;
+    display: flex;
+    flex-direction:column;
+  }
+  /* .App .content{
+    background-color: blue;
+  } */
+  .leftmenu{
+    display: none;
+  }
+}
 
