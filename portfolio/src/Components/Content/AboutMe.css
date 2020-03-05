@@ -1,0 +1,20 @@
+.aboutme{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid;
+    margin-bottom: 20px;
+}
+
+.aboutme .social{
+    display: flex;
+    flex-direction: row;
+   
+}
+.social {
+    padding:10px;
+    padding-left: 0px;
+}
+.aboutme p{
+    font-size: 20px;
+    padding-left: 5px;
+}

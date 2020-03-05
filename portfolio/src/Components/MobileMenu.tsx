@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 import './MobileMenu.css';
-import Logo from '../images/thor.png';
-import MenuIcon from '../images/hamburger.png';
+import Logo from '../images/thor2.png';
+//import MenuIcon from '../images/hamburger.png';
 import MobileMenuDrawer from './MobileMenuDrawer';
+import MenuIcon from '@material-ui/icons/Menu';
 
 const MobileMenu: React.FunctionComponent = () => {
 
@@ -11,7 +12,7 @@ const MobileMenu: React.FunctionComponent = () => {
         <div>
             <div className="mobileHeader">
                 <a href="#" className='hamburger' onClick={() => setDrawer(true)}>
-                    <img src={MenuIcon} alt="" />
+                    <MenuIcon fontSize='large' />
                 </a>
                 <div className="mobileHeaderLogo">
                     <img src={Logo} alt="thor" />

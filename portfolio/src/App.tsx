@@ -8,6 +8,7 @@ import Experience from './Components/Content/Experience';
 import Projects from './Components/Content/Projects';
 import Skills from './Components/Content/Skills';
 import Contact from './Components/Content/Contact';
+import AboutMe from './Components/Content/AboutMe';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <DesktopMenu />
       <MobileMenu />
       <div className="content">
+        <AboutMe />
         <Switch>
           <Route exact path="/" component={Summary} />
           <Route path="/experience" component={Experience} />

@@ -1,6 +1,6 @@
 import React from 'react';
 import './DesktopMenu.css';
-import Logo from '../images/thor.png';
+import Logo from '../images/thor2.png';
 import { Link } from 'react-router-dom';
 
 const DesktopMenu: React.FunctionComponent<{}> = () => {

@@ -9,7 +9,7 @@ img {
 }
 
 .leftmenu{
-  background-color: lightgray;
+  background-color:black;
   border-right: 1px solid black;       
   display:flex;
   flex-direction:column; 
@@ -22,7 +22,7 @@ img {
 .leftmenu a{
   padding:10px;  
   text-decoration: none;
-  color:black;
+  color:white;
 }
 
 .leftmenu a:hover {
