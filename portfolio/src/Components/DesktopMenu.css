@@ -14,8 +14,9 @@ img {
   display:flex;
   flex-direction:column; 
   align-items:center;
-  flex-grow: 1;
-  max-width: 250px;
+  /* flex-grow: 1; */
+  min-width: 300px;
+  max-width: 300px;
   padding-top:50px;
 }
 .leftmenu a{
@@ -30,7 +31,7 @@ img {
 .content{
   padding:10px;
   background-color: white;  
-  flex-grow: 3;
+  flex-grow: 2;
 }
 .hamburger img{
   width:0px

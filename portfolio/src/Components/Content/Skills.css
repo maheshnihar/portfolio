@@ -1,0 +1,22 @@
+.parent{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-basis: 50%
+}
+
+.parent div{
+    padding: 10px;
+    background-color:#313C42;
+    border-style: solid;
+    border-radius: 10px;
+    margin: 10px;
+    flex-grow: 1;
+    color: ghostwhite;
+}
+
+.parent div p{
+   font-weight: bold;
+}
+

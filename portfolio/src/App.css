@@ -4,9 +4,10 @@
   display: flex;
   
 }
-/* .App .content{
-  
-} */
+.App .content{
+ margin:30px;
+ text-align: left;
+}
 
 @media only screen and (max-width: 768px) {
   .App {
@@ -15,9 +16,9 @@
     display: flex;
     flex-direction:column;
   }
-  /* .App .content{
-    background-color: blue;
-  } */
+  .App .content{
+    margin: 0px;
+  }
   .leftmenu{
     display: none;
   }
