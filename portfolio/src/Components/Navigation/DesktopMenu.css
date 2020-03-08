@@ -5,11 +5,11 @@
 }
 img {
    width: 150px;
-   padding-bottom:20px
+   padding-bottom:20px;
 }
 
 .leftmenu{
-  background-color:black;
+  background-color:#35C892;
   border-right: 1px solid black;       
   display:flex;
   flex-direction:column; 
@@ -28,11 +28,7 @@ img {
 .leftmenu a:hover {
   text-decoration: underline; 
  }
-.content{
-  padding:10px;
-  background-color: white;  
-  flex-grow: 2;
-}
+
 .hamburger img{
   width:0px
 }

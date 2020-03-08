@@ -4,10 +4,13 @@
   display: flex;
   
 }
-.App .content{
- padding:30px;
- text-align: left;
- background-color: #ffdb58;
+
+.content{
+  padding:30px;
+  text-align: left;
+  background-color:white;
+  flex-grow: 2;
+  color:black
 }
 
 @media only screen and (max-width: 768px) {
@@ -17,9 +20,16 @@
     display: flex;
     flex-direction:column;
   }
+ 
   .App .content{
-    padding: 0px;
+    padding: 15px;
+    margin-top: 60px;
   }
+
+  .App .content .MuiButtonBase-root{
+    position: static !important;
+  }
+
   .leftmenu{
     display: none;
   }

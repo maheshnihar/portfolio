@@ -1,8 +1,8 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom'
 import './App.css';
-import DesktopMenu from './Components/DesktopMenu';
-import MobileMenu from './Components/MobileMenu';
+import DesktopMenu from './Components/Navigation/DesktopMenu';
+import MobileMenu from './Components/Navigation/MobileMenu';
 import Summary from './Components/Content/Summary';
 import Experience from './Components/Content/Experience';
 import Projects from './Components/Content/Projects';

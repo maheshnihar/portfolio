@@ -1,12 +1,16 @@
 
 .mobileHeader{
   height:75px;
-  background-color:black ;
+  background-color:#35C892;
   display: flex;
   flex-direction: row; 
   align-items: center;  
   justify-content: space-between;
   padding-left: 10px;
+  color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;  
 }
 .mobileHeaderLogo img{
   width: 50px;

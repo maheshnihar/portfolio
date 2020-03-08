@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
 import './MobileMenu.css';
-import Logo from '../images/thor2.png';
+import Logo from '../../images/thor2.png';
 //import MenuIcon from '../images/hamburger.png';
 import MobileMenuDrawer from './MobileMenuDrawer';
 import MenuIcon from '@material-ui/icons/Menu';
+import CustomSwitch from '../Common/CustomSwitch';
 
 const MobileMenu: React.FunctionComponent = () => {
 
@@ -11,12 +12,11 @@ const MobileMenu: React.FunctionComponent = () => {
     return (
         <div>
             <div className="mobileHeader">
-                <a href="#" className='hamburger' onClick={() => setDrawer(true)}>
-                    <MenuIcon fontSize='large' />
-                </a>
+                <MenuIcon fontSize='large' onClick={() => setDrawer(true)} />
                 <div className="mobileHeaderLogo">
                     <img src={Logo} alt="thor" />
                 </div>
+                <CustomSwitch />
             </div>
             {visible && <MobileMenuDrawer open={visible} closeDrawer={() => setDrawer(false)} />}
         </div>

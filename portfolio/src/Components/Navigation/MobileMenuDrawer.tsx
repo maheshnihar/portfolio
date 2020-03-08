@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './MobileMenuDrawer.css';
 import { CSSTransition } from 'react-transition-group';
 import { Link } from 'react-router-dom';
-
+import CloseIcon from '@material-ui/icons/Close';
 
 interface MobileMenuDrawerProps {
     closeDrawer: any;
@@ -22,7 +22,8 @@ const MobileMenuDrawer: React.FunctionComponent<MobileMenuDrawerProps> = (props)
                     onExited={() => SetDrawer(false)}
                 >
                     <div id="mySidenav" className="sidenav">
-                        <a href="javascript:void(0)" className="closebtn" onClick={props.closeDrawer} >&times;</a>
+                        <CloseIcon className="closebtn" onClick={props.closeDrawer} />
+                        {/* <a href="javascript:void(0)" className="closebtn" onClick={props.closeDrawer} >&times;</a> */}
                         <Link to='/' onClick={props.closeDrawer}>Summary</Link>
                         <Link to='/experience' onClick={props.closeDrawer}>Experience</Link>
                         <Link to='/projects' onClick={props.closeDrawer}>Projects</Link>

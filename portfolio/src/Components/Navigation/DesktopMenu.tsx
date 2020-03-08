@@ -1,7 +1,10 @@
 import React from 'react';
 import './DesktopMenu.css';
-import Logo from '../images/thor2.png';
+import Logo from '../../images/thor2.png';
 import { Link } from 'react-router-dom';
+import CustomSwitch from '../Common/CustomSwitch';
+
+
 
 const DesktopMenu: React.FunctionComponent<{}> = () => {
     return (
@@ -12,6 +15,7 @@ const DesktopMenu: React.FunctionComponent<{}> = () => {
             <Link to='/projects'>Projects</Link>
             <Link to='/skills'>Skills</Link>
             <Link to='/contact'>Contact</Link>
+            <CustomSwitch />
         </div>
     )
 }
