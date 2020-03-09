@@ -1,8 +1,7 @@
 .App {
   text-align: center;  
   height: 100%;
-  display: flex;
-  
+  display: flex;  
 }
 
 .content{
@@ -11,6 +10,14 @@
   background-color:white;
   flex-grow: 2;
   color:black
+}
+
+.contentDark{
+  padding:30px;
+  text-align: left;
+  background-color:#192020;
+  flex-grow: 2;
+  color:white
 }
 
 @media only screen and (max-width: 768px) {
@@ -27,6 +34,15 @@
   }
 
   .App .content .MuiButtonBase-root{
+    position: static !important;
+  }
+
+  .App .contentDark{
+    padding: 15px;
+    margin-top: 60px;
+  }
+
+  .App .contentDark .MuiButtonBase-root{
     position: static !important;
   }
 

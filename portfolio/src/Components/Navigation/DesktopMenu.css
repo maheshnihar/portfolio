@@ -24,8 +24,26 @@ img {
   text-decoration: none;
   color:white;
 }
-
 .leftmenu a:hover {
+  text-decoration: underline; 
+ }
+ .leftmenuDark{
+  background-color:#2d3e6b;
+  border-right: 1px solid black;       
+  display:flex;
+  flex-direction:column; 
+  align-items:center;
+  /* flex-grow: 1; */
+  min-width: 300px;
+  max-width: 300px;
+  padding-top:50px;
+}
+.leftmenuDark a{
+  padding:10px;  
+  text-decoration: none;
+  color:white;
+}
+.leftmenuDark a:hover {
   text-decoration: underline; 
  }
 
